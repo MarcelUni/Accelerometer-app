@@ -31,7 +31,7 @@ public class SaveAccelerometerData : MonoBehaviour
         datapath = Application.persistentDataPath + "/AccelerometerData/";
         datafile = datapath + "Accelerometer_Data.json";
 
-        Console.text = datafile;    //Show the path to the user
+        Console.text = "Path for the saved data: " + datafile;    //Show the path to the user
     }
 
     void Start()
